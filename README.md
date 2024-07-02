@@ -6,8 +6,7 @@ Create a two-page application.
 The product list consists of cards.
 The product card should have an image, a title, and a price. When clicking on a product card, it navigates to the product details page.
 
-- The product details page has an image of the product at the top, followed by the product title, price, and product 
-description.
+- The product details page has an image of the product at the top, followed by the product title, price, and product description.
 
 API to use:
 GET single product:
