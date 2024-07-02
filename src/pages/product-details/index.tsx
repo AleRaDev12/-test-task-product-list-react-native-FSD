@@ -39,7 +39,9 @@ export const ProductDetails: FC = () => {
     }
 
     return (
-      <ScrollView contentContainerStyle={styles.container}>
+      <ScrollView
+        style={styles.scrollView}
+        contentContainerStyle={styles.container}>
         <Image source={{uri: product.image}} style={styles.image} />
         <View style={styles.infoContainer}>
           <Text style={typography.title}>{product.title}</Text>
@@ -64,6 +66,9 @@ export const ProductDetails: FC = () => {
 
 const styles = StyleSheet.create({
   safeArea: {
+    flexGrow: 1,
+  },
+  scrollView: {
     flex: 1,
   },
   container: {
